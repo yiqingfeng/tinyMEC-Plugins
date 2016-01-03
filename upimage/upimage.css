@@ -1,0 +1,67 @@
+.clearFix:after{
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearFix{
+	zoom: 1;
+}
+/* 上传图片，为TinyMEChanical添加一个参数 */
+.m-upimage ul{
+	list-style-type: none;
+}
+
+.m-upimage .showmsg{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 9999;
+}
+
+.m-upimage .image-content{
+	min-height: 380px;
+	padding-top: 1px;
+	border: solid #ddd;
+	border-width: 0 1px 1px;
+}
+
+.m-upimage .upfiles{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.m-upimage .tab-pane{
+	position: relative;
+}
+
+.m-upimage .imagelists li{
+	float: left;
+	width: 149px;
+	height: 149px;
+	/*margin-top: 10px;*/
+	margin: 10px 20px 0;
+	/*margin-right: 20px;*/
+}
+
+.m-upimage .imagelists li img{
+	border: 3px solid #ccc;
+}
+
+.m-upimage .imagelists .active img{
+	border-color: #337ab7;
+}
+
+.m-upimage .image-page{
+	text-align: center;
+}
+
+.m-upimage .image-page li{
+	cursor: pointer;
+}
+
+.m-upimage .pagination{
+	margin: 0 0 10px;
+}
